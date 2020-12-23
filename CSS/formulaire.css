@@ -1,0 +1,66 @@
+#identité{
+    background-color: rgb(0, 171, 250);
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 30%;
+}
+
+#adress{
+    background:blueviolet;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 30%;
+}
+
+#info{
+    background: rgb(211, 24, 24);
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 30%;
+}
+
+#nom{
+    border-radius: 5px;
+}
+
+#prenom{
+    border-radius: 5px;
+}
+
+#mail{
+    border-radius: 5px;
+}
+
+#adresse{
+    border-radius: 5px;
+}
+
+#CP{
+    border-radius: 5px;
+}
+
+#ville{
+    border-radius: 5px;
+}
+
+#NbCB{
+    border-radius: 5px;
+}
+
+#crypto{
+    border-radius:  5px;
+}
+
+#nomClient{
+    border-radius: 5px;
+}
+
+form{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#boutton{
+    display: flex;
+}

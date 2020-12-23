@@ -1,0 +1,90 @@
+h1{
+    color:crimson;
+    padding-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-image: url("https://cdn.pixabay.com/photo/2015/09/25/11/01/banner-957163_960_720.jpg");
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    height: 200px;
+    text-decoration: none;
+    
+}
+
+
+h2{
+    font-style: italic;
+}
+
+#img{
+    margin: 5px;
+    background-position: center center;
+    
+}
+
+/* main{
+    display: ;
+} */
+
+ul{
+    text-align: center;
+    list-style-type: none;
+}
+
+#table{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:200px ;
+    padding-top:200px;
+}
+
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+.mb-3{
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link:hover{
+    background-color: red;
+}
+
+body{
+    background-color: #c0c0c0;
+}
+
+.mb-1{
+    width: 5%;
+    display:flex;
+    text-align: center;
+}
+
+.ImageAcc{
+    width: 150px;
+    height: 150px;
+}
+
+.card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+}
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}

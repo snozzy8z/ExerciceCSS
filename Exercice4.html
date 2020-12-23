@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+    <link href="CSS/formulaire.css" rel="stylesheet" type="text/css">
+    <link href="CSS/site.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="C:/Users/User/Desktop/ExerciceCSS/Exercice5.html">
+                <h1>Code 2.0</h1>
+            </a>
+        </div>
+        <nav class="navbar navbar-dark bg-darknavbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="C:/Users/User/Desktop/ExerciceCSS/Exercice5.html">Acceuil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="C:/Users/User/Desktop/ExerciceCSS/formulaire.html">Connexion</a>
+                        <li class="nav-item">
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="C:/Users/User/Desktop/ExerciceCSS/inscription.html">Inscription</a>
+                        <li class="nav-item">
+                        <li class="nav-item">
+                            <a class="nav-link" href="C:/Users/User/Desktop/ExerciceCSS/Exercice2.html">Tableau</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="C:/Users/User/Desktop/ExerciceCSS/Exercice4.html">Formulaire</a>
+                        </li>
+                        <li class="nav-item"> </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <hr>
+    </header>
+    <form>
+        <div class="container-fluid" id="identité">
+            <fieldset>
+                <legend>Votre identité</legend>
+                <div>
+                    <label for="name">1.Nom :</label>
+                    <input id="nom" type="text" name="user_name" placeholder="Nom">
+                </div>
+                <div>
+                    <label for="name">2.Prénom :</label>
+                    <input id="prenom" type="text" name="user_name" placeholder="Prénom">
+                </div>
+                <div>
+                    <label for="mail">3.Adresse mail :</label>
+                    <input id="mail" type="mail" name="user_mail" placeholder="Adresse mail">
+                </div>
+            </fieldset>
+        </div>
+    </form>
+    <br>
+    <form>
+        <div class="container-fluid" id="adress">
+            <fieldset>
+                <legend>Adresse de livraison</legend>
+                <div>
+                    <label for="adress">1.Adresse :</label>
+                    <textarea id="adresse" type="text" name="user_adresse" placeholder="Adresse de livraison" cols="30"
+                        rows="10"></textarea>
+                </div>
+                <div>
+                    <label for="poste">2.Code postal :</label>
+                    <input id="CP" type="number" name="user_poste" placeholder="Code postal">
+                </div>
+                <div>
+                    <label for="ville">3.Ville :</label>
+                    <input id="ville" type="text" name="user_city" placeholder="Ville">
+                </div>
+            </fieldset>
+        </div>
+    </form><br>
+    <form class="text-center">
+        <div class="container-fluid" id="info">
+            <fieldset>
+                <legend>Informations de réglement</legend>
+                <div>
+                    <label for="CB">1.Type de carte bancaire :</label>
+                    <input type="radio" id="CB" name="user_cb">VISA
+                    <input type="radio" id="CB" name="user_cb">Mastercard
+                </div>
+                <div>
+                    <label for="NbCB">2.Numéro de carte bancaire :</label>
+                    <input id="NbCB" type="text" name="user_NbCB" pattern="[0-9]{16}" maxlength="16"
+                        placeholder="Numéro de la carte bancaire">
+                </div>
+                <div>
+                    <label for="crypto">3.Code de sécurité :</label>
+                    <input id="crypto" type="text" name="user_cryptogramme" maxlength="3" pattern="[0-9]{3}"
+                        placeholder="(cryptogramme visuel)">
+                </div>
+                <div>
+                    <label for="nomClient">4.Nom du titulaire :</label>
+                    <input id="nomClient" type="text" name="user_nameCB" placeholder="Nom du titulaire">
+                </div>
+
+            </fieldset>
+        </div>
+        <button type="submit" class="mb-1 btn btn-primary container-fluid ">Submit</button>
+    </form>
+
+    <footer>
+        <ul>
+            <li><a href="#">Mentions Légales</a></li>
+            <li><a href="#">Horaire</a></li>
+            <li><a href="#">Plan du site</a></li>
+        </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
